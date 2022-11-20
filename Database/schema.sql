@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8080
--- Generation Time: Dec 04, 2022 at 06:49 PM
+-- Generation Time: Nov 19, 2022 at 06:49 PM
 -- Server version: 8.0.22
 -- PHP Version: 7.4.12
 
@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS `Contacts` (
 -- Table structure for table `notes`
 --
 
-CREATE TABLE IF NOT EXISTS `users` (
+CREATE TABLE IF NOT EXISTS `notes` (
   `id` int NOT NULL AUTO_INCREMENT,
   `contact_id` int NOT NULL,
   `comment` text NOT NULL,
