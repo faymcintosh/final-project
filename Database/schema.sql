@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS `Contacts` (
 -- Table structure for table `notes`
 --
 
-CREATE TABLE IF NOT EXISTS `users` (
+CREATE TABLE IF NOT EXISTS `notes` (
   `id` int NOT NULL AUTO_INCREMENT,
   `contact_id` int NOT NULL,
   `comment` text NOT NULL,
