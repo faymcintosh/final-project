@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    
+    
+}
+
+h1 {
+    padding: 16px;
+    font-size: 18px;
+    background-color: black;
+    float: left;
+    color: white;
+    width: 100%;
+        
+}
+
+/*#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }*/
+  
+  /*#error-msg-second-line {
+    display: block;
+  }*/
+  
+
+.user-login {
+    align-items: center;
+    justify-content: center;
+    
+    margin: auto ;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: #E2E8F0;
+    
+}
+
+.user-login .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    
+}
+
+.login h2 {
+    font-size: 24px;
+    color: black;
+}
+
+form {
+    flex-flow: row nowrap;
+    display: flex;
+    align-items: center;
+}
+
+#email{
+    height: 50px;
+    margin: 6px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+#password{
+    height: 50px;
+    margin: 6px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+
+
+.btn{
+   
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    margin: 6px;
+    padding: 14px 20px;
+    background-color: #5A67D8;
+    color: white;
+
+}
+
+
+/*button {
+    background-color: #5A67D8;
+    color: white;
+    height: 50px;
+    padding: 14px 20px;
+    margin: 8px 2;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.25px;
+    border-radius: 5px;
+    
+}*/
+#btn:hover {
+    opacity: 0.8;
+   
+}
+
+/*.box input[type="submit"]{
+    background-color: #5A67D8;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.box input[type="submit"]:hover{
+    
+    background-color: #5A67D8;
+}*/
+
+footer{
+    color: black;
+    height: 70px;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Style for admin*/
+
+
+.add-user {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin: auto ;
+    display: flex;
+    height: 500px;
+    width: 1100px;
+    background-color: #E2E8F0;
+    
+}
+
+.add-user .container1{
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 1060px;
+    height: 300px;
+    
+}
+
+.add-user .container1 .title{
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    width: 1060px;
+    color: black;
+    
+    
+}
+
+.content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box option{
+    height: 45px;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+
+form .button{
+    height: 45px;
+    margin: 35px 0
+
+}
+
+form .button input{
+    height: 100%;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #5A67D8;
+  }
+
+  /* View list of users*/
+
+.list-users {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin: auto ;
+    display: flex;
+    height: 500px;
+    width: 1100px;
+    background-color: #E2E8F0;
+    
+}
+
+.list-users .container1{
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 1060px;
+    height: 300px;
+    
+}
+
+.list-users .container1 .title{
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    width: 1060px;
+    color: black;
+    
+    
+}
+
+.list-users .container1 .content table{
+    width: 1060px;
+    
+}
+
+.list-users .container1 .content table th{
+   border: 0.5px solid black;
+   border-radius: 5px;
+   padding: 1px;
+    
+}
+
+
+/*.form-group2 input {
+    height: 20px;
+    width: 400px;
+}*/
+
+/*.add-user .container1 h2 {
+    font-size: 24px;
+    color: black;
+    text-align: left;   
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25p
+}*/
+
+/*#firstname{
+    height: 40px;
+    margin: 6px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+#lastname{
+    height: 40px;
+    margin: 6px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+#pass{
+    height: 40px;
+    margin: 6px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+#email2{
+    height: 40px;
+    margin: 6px;
+    width: 480px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+
+#priority{
+    height: 20px;
+    margin: 6px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.25px;
+}
+
+
+form .button{
+   
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 10px;
+    border: none;
+    margin: 6px;
+    padding: 14px 20px;
+    background-color: #5A67D8;
+    color: white;
+    
+
+}*/
