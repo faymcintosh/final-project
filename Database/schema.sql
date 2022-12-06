@@ -39,6 +39,12 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
+--
+--Dumping data for admin user
+
+INSERT INTO  `users` (`id`,  `email`,  `password`) VALUES
+(1, 'admin@project2.com', 'password123');
 -- --------------------------------------------------------
 
 --
