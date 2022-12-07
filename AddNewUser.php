@@ -18,10 +18,10 @@
           <div class="wrapper">
                <div class="sidebar">
                     <ul>
-                         <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-                         <li><a href="#"><i class="fas fa-user"></i>Users</a></li> 
+                         <li><a href="home.php"><i class="fas fa-home"></i>Home</a></li>
+                         <li><a href="Users.php"><i class="fas fa-user"></i>Users</a></li> 
                          <li><a href="#"><i class="fas fa-address-book"></i>New Contact</a></li>
-                         <li><a href="#"><i class="fas fa-door-open"></i>Log Out</a></li>
+                         <li><a href ="logout.php"><i class="fas fa-door-open"></i>Log Out</a></li>
                     </ul> 
     </div>
     <div class="main_content">
@@ -51,6 +51,9 @@
             <option value="admin">Admin</option>
             </select>
         </p>
+
+        <input type="submit" class="btn" value="Add Contact" name="submit" />
+
          </form>
       </div>
     </div>
