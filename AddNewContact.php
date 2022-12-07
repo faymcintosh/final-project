@@ -27,7 +27,7 @@
     <div class="main_content">
         <div class="header">DashBoard <button class="btn"><i class="fa fa-plus"></i> Add Contact </button></div>  
         <div class="info">
-        <form action= "adduser.php" method = "post">
+        <form action= "addcontact.php" method = "post">
           <p>
             <label for="fname">First Name</label>
             <input type="text" name="fname" id="fname" placeholder="Jane" required>
@@ -41,14 +41,14 @@
             <input type="email" name="email" id="email" placeholder="Email" required>
          </p>
          <p>
-            <label for="password">Password</label>
+            <label for="password">Company</label>
             <input type="password" name="password" id="password" placeholder="Password" required>
          </p>
          <p>
-            <label for="roles">Role</label>
-            <select name="role" id="role">
-            <option value="member">Member</option>
-            <option value="admin">Admin</option>
+            <label for="title">Title\</label>
+            <select name="title" id="title">
+            <option value="Ms">Ms</option>
+            <option value="Mr">Mr</option>
             </select>
         </p>
 

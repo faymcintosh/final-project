@@ -14,7 +14,7 @@ include "db_conn.php";?>
 </head>
 <body>
     <div class = "container">
-        <button class = "btn btn-primary my-5"><a href ="logout.php" class= "text-light"> Add User</a> </button>
+        <button class = "btn btn-primary my-5"><a href ="AddNewUser.php" class= "text-light"> Add User</a> </button>
     
         <table class="table">
   <thead>
