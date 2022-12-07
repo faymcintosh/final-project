@@ -27,7 +27,7 @@ if(isset($_POST['submit']))
         echo ' <script type = "text/javascript"> alert ("Data not Saved") </script>';
     }
 }
-   
+                            
 /*if (!$conn) {
 	echo "Connection failed!";
 }

@@ -16,6 +16,7 @@ if(isset($_POST['submit']))
 	$email = $_POST['email'];
 	$telephone = $_POST['telephone'];
     $company = $_POST['company'];
+    $type = $_POST['type'];
     $assigned_to = $_POST['assigned_to'];
 
     $query = "INSERT INTO `Contacts`(`title', `firstname`, `lastname`, `email`, `telephone`, `company`, `assigned_to`) VALUES ('$firstname', '$lastname', '$telephone', '$company', $assigned_to)";

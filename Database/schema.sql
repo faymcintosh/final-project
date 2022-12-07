@@ -43,8 +43,11 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 --Dumping data for admin user
 
-INSERT INTO  `users` (`id`,  `email`,  `password`) VALUES
-(1, 'admin@project2.com', 'password123');
+INSERT INTO  `users` (`id`,  `email`,  `password`, `role` ) VALUES
+(1, 'admin@project2.com', 'password123', 'admin');
+
+INSERT INTO `users` (`role`) VALUES
+('Admin'), ('Member')
 -- --------------------------------------------------------
 
 --

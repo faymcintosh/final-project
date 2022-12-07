@@ -27,12 +27,34 @@
     <div class="main_content">
         <div class="header">DashBoard <button class="btn"><i class="fa fa-plus"></i> Add Contact </button></div>  
         <div class="info">
-          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+        <form action= "adduser.php" method = "post">
+          <p>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Jane" required>
+          </p>
+          <p>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Doe" required>
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+         </p>
+         <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+         </p>
+         <p>
+            <label for="roles">Role</label>
+            <select name="role" id="role">
+            <option value="member">Member</option>
+            <option value="admin">Admin</option>
+            </select>
+        </p>
+         </form>
       </div>
     </div>
 </div>
 </main>
 </body>
-</html>
+</html
